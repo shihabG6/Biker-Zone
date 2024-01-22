@@ -68,6 +68,7 @@
             <a href="#slide2" class="btn btn-circle bg-transparent text-3xl border-none flex justify-center items-center">❯</a>
           </div>
         </div> 
+        
         <div id="slide2" class="carousel-item relative w-full">
           <div class="flex flex-col md:flex-row items-center gap-10 p-10 md:p-20">
             <div class="flex-1 space-y-5">
@@ -80,7 +81,7 @@
               <img src="images/slider/bike2.png" alt="">
             </div>
            </div>
-           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+           <div class="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 md:left-5 md:right-5 top-1/2">
             <a href="#slide1 " class="btn btn-circle bg-transparent text-3xl border-none flex justify-center items-center">❮</a> 
             <a href="#slide3" class="btn btn-circle bg-transparent text-3xl border-none flex justify-center items-center">❯</a>
           </div>
@@ -98,7 +99,7 @@
               <img src="images/slider/bike3.png" alt="">
             </div>
            </div>
-           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+           <div class="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 md:left-5 md:right-5 top-1/2">
             <a href="#slide2 " class="btn btn-circle bg-transparent text-3xl border-none flex justify-center items-center">❮</a> 
             <a href="#slide4" class="btn btn-circle bg-transparent text-3xl border-none flex justify-center items-center">❯</a>
           </div>
@@ -116,7 +117,7 @@
               <img src="images/slider/bike4.png" alt="">
             </div>
            </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 md:left-5 md:right-5 top-1/2">
             <a href="#slide3 " class="btn btn-circle bg-transparent text-3xl border-none flex justify-center items-center">❮</a> 
             <a href="#slide1" class="btn btn-circle bg-transparent text-3xl border-none flex justify-center items-center">❯</a>
           </div>
@@ -124,8 +125,52 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="md:max-w-6xl mx-auto">
+    <section class="container md:max-w-6xl mx-auto  my-28 text-center">
+      <h2 class="text-4xl font-semibold text-[#0A0826] mb-1" >Fetured Bikes In This Year</h2>
+      <p class="underline underline-offset-8 text-[#E76F51] p-4">Best bike collection</p>
 
+      <div class="bike flex flex-col
+      space-y-10  md:space-y-0 md:flex-row  justify-around mt-8  p-3 text-center">
+        <img src="images//others/feature-bike.png" alt="">
+        <img src="images//others/feature-bike.png" alt="">
+        <img src="images//others/feature-bike.png" alt="">
+      </div>
+    </section>
+    
+    <section class="">
+        <h2 class="text-[#0A0826] text-center text-4xl font-semibold mb-14">Latest News</h2>
+        <div class="cart-section">
+          <div class="bike-cart grid grid-cols-1  md:grid-cols-3 gap-6 ">
+            <cart class="cart-1 p-3 bg-white rounded-lg shadow-lg ">
+              <div class="img flex justify-center">
+              <img src="images/others/latest1.png" alt="" class="mb-8">
+              </div>
+              <h2 class="text-[#18191F] font-extrabold mb-2.5">2021 Honda CBR500R</h2>
+              <p class="font-normal text-[#6C6C6C] text-1xl mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <button class="btn border-2 bg-white text-[#E76F51] hover:text-white hover:bg-[#E76F51]  border-[#E76F51] hover:border-transparent p-4 ">Read More</button>
+            </cart>
+            <cart class="cart-2 p-3 bg-white shadow-lg rounded-lg ">
+              <div class="img flex justify-center">
+                <div class="img flex justify-center">
+                  <img src="images/others/latest2.png" alt="" class="mb-8">
+                  </div>
+                </div>
+              <h2 class="text-[#18191F] font-extrabold mb-2.5">2021 Honda CBR500R</h2>
+              <p class="font-normal text-[#6C6C6C] text-1xl mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <button class="btn border-2 bg-white text-[#E76F51] hover:text-white hover:bg-[#E76F51]  border-[#E76F51] hover:border-transparent p-4 ">Read More</button>
+            </cart>
+          <cart class="p-3 bg-white rounded-lg shadow-lg">
+            <div class="img flex justify-center">
+              <img src="images/others/latest3.png" alt="" class="mb-8">
+              </div>
+            <h2 class="text-[#18191F] font-extrabold mb-2.5">2021 Honda CBR500R</h2>
+            <p class="font-normal text-[#6C6C6C] text-1xl mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <button class="btn border-2 bg-white text-[#E76F51] hover:text-white hover:bg-[#E76F51]  border-[#E76F51] hover:border-transparent p-4 ">Read More</button>
+          </cart>
+        </div>
+        </div>
+    </section>
   </main>
   <footer>
 
